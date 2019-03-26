@@ -2,7 +2,6 @@ package com.aws.codestar.projecttemplates.handler;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
-
 import com.aws.codestar.projecttemplates.GatewayResponse;
 import org.json.JSONObject;
 
