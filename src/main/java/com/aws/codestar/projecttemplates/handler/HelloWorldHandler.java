@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class HelloWorldHandler implements RequestHandler<Object, Object> {
 
-    private static AtomicInteger counter = new AtomicInteger();
+    private AtomicInteger counter = new AtomicInteger();
 
     public Object handleRequest(final Object input, final Context context) {
         Map<String, String> headers = new HashMap<>();
